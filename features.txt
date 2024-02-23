@@ -1,0 +1,13 @@
+One of the additional features I did was a life counter, wave counter, and score
+counter at the top of the screen. I did this by creating hidden attributes in 
+the wave class which increased when necessairy. I then passed these values over 
+to the Invaders class so that they could be put on GLabels and displayed to the 
+player.The players lives are also saved, so they do not reset inbetween waves. 
+Once the player loses all of their lives, I made it so they could press 's' to 
+play again. When they play a new game, the values for lives, wave number, and 
+score are all reset to their initial values.
+
+I also mmade it so that there are multiple waves, and for each new wave the 
+aliens move faster. I did this by making a _speed attribute, which increased 
+each time the player started a new wave. I kept track of the player was on in a 
+hidden attribut _currentWave. 
